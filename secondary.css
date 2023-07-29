@@ -1,0 +1,48 @@
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  background: url("arrow.png");
+  background-repeat: no-repeat;
+  background-size: 26px 27px;
+  background-position: right;
+  background-origin: content-box;
+}
+
+.radio-container {
+  margin: 1.5em 0 0;
+  display: flex;
+  margin-right: 2em;
+}
+
+.radio-container label {
+  font-size: 1em;
+  margin-right: 2em;
+}
+
+.radio-container input {
+  margin-right: 1em;
+  accent-color: #8040ff;
+  scale: 250%;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  padding: 0.8em;
+}
+.extra-height {
+  min-height: 150px;
+}
+
+#cd {
+  scale: 200%;
+  align-self: flex-start;
+  accent-color: #8040ff;
+  margin-right: 1em;
+  margin-bottom: 0;
+}
+.checkbox-container {
+  margin-bottom: 2em;
+}
